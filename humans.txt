@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+                            
+Research and writing by Caroline Sinders                  
+Site: https://carolinesinders.com/
+Twitter: @carolinesinders
+
+Editing by Margarita Noreiga & Edward Anthony
+
+Web development by Jay Mollica
+Site: https://www.jaymollica.com
+Twitter: @JayMollica
+
+Designed by Xuedi Chen & Pedro Oliveira
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
