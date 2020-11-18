@@ -16,7 +16,7 @@ let waves2;
 let track;
 let level;
 let fiveMinutes;
-let possibleWaves = ['waves1_1.mp4','waves1_2.mp4','waves1_3.mp4'];
+let possibleWaves = ['waves1_1.mov','waves1_2.mov','waves1_3.mov'];
 let vidOpacity = 0;
 let flipped = false;
 let newOpacity;
@@ -27,15 +27,15 @@ let cypressLooped = false;
 let trackPlayed = false;
 
 function preload() {
-	track = createAudio('audio/real_wave.mp3');
+	track = createAudio('../audio/real_wave.mp3');
 
-	waves = createVideo(['video/'+random(possibleWaves)]);
+	waves = createVideo(['../video/'+random(possibleWaves)]);
 	waves.hide();
 
-	waves2 = createVideo(['video/blue_natural_video.mp4']);
+	waves2 = createVideo(['../video/blue_natural_video.mp4']);
 	waves2.hide();
 
-	cypress = createVideo(['video/cypress1.mp4']);
+	cypress = createVideo(['../video/cypress1.mp4']);
 	cypress.hide();
 
 	newOpacity = random(10,30);
@@ -53,7 +53,7 @@ function setup() {
 
 	textSize(48);
 	fill('white');
-	text('Tap / Click to begin.', 50, 100);
+	text('Loading...', 50, 100);
 
 	frameRate(24);
 
